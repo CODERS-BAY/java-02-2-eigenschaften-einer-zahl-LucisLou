@@ -10,12 +10,12 @@ public class CharacteristicsOfANumber {
 
         float num = scanner.nextFloat();
 
-        if ((num/num) == 0) {
+        if ((num%10) == 0) {
             System.out.printf("%f is a round number%n", num);
         } else {
             System.out.printf("%f is not a round number%n", num);
         }
-
+        
         if (num%2 == 0) { //checks if number is even or odd by checking the remainder of the division by 2.
             System.out.printf("%f is an even number.%n", num);
         } else {
